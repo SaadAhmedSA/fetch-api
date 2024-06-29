@@ -5,7 +5,7 @@ let url = "https://cat-fact.herokuapp.com/facts"
 let respon = await fetch(url)
 
 
-let dat = await respon.json()
+let dat = await respon.json();
 
 
 console.log(dat[0].text);
