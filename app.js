@@ -1,6 +1,6 @@
 let url = "https://cat-fact.herokuapp.com/facts"
 
-  async function old(){
+  async function foo(){
 
 let respon = await fetch(url)
 
@@ -14,5 +14,6 @@ console.log(dat[2].text);
 console.log(dat[3].text);
 console.log(dat[4].text);
 
+
  }
-old()
+foo()
