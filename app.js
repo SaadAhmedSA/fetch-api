@@ -7,8 +7,9 @@ let respon = await fetch(url)
 
 let dat = await respon.json();
 
-
-console.log(dat[0].text);
+let h= document.getElementById("h1")
+  
+h1.innerText=(dat[0].text);
 console.log(dat[1].text);
 console.log(dat[2].text);
 console.log(dat[3].text);
